@@ -11,18 +11,37 @@ body, html {
   margin: 0;
 }
 
-
-header {
-  border-bottom: 1px solid #ccc;
-  padding: 20px;
+a, a:visited {
+  color: #3366cc;
+  text-decoration: none;
+  -webkit-transition: color 0.15s ease-in;
+  -moz-transition: color 0.15s ease-in;
+  -o-transition: color 0.15s ease-in;
+  transition: all 0.15s ease-in;
 }
-.content {
+
+a:hover {
+  color: #333;
+}
+
+.listed-post {
   background: #fff;
+  border-bottom: 1px solid #ccc;
+  padding: 20px;
+}
+.post { /* Individual Page */
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+  padding: 20px;
 }
 
 
-
-.post {
-  border-bottom: 1px solid #ccc;
-  padding: 20px;
+/* Static Pages */
+.page {
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 40px;
+  margin: 0 auto;
+  max-width: 1400px;
+  width: 90%;
 }

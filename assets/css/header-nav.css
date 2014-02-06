@@ -1,0 +1,8 @@
+header {
+  border-bottom: 1px solid #ccc;
+  padding: 20px;
+}
+
+header h1 a {
+  color: black;
+}
