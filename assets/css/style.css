@@ -18,6 +18,11 @@ header {
 }
 .content {
   background: #fff;
+}
+
+
+
+.post {
   border-bottom: 1px solid #ccc;
   padding: 20px;
 }
