@@ -1,8 +1,27 @@
 ---
-layout: page
+layout: default
 title: Photos
 ---
-<div class='page'>
-  <h1>Photos</h1>
-  <p>This is our photos page. Read all about it</p>
+<div class='gallery'>
+  <ul class='masonry-gallery'>
+    <li><img src="http://placehold.it/450x250"></li>
+    <li><img src="http://placehold.it/350x120"></li>
+    <li><img src="http://placehold.it/300x150"></li>
+    <li><img src="http://placehold.it/300x170"></li>
+    <li><img src="http://placehold.it/350x350"></li>
+    <li><img src="http://placehold.it/350x150"></li>
+    <li><img src="http://placehold.it/350x150"></li>
+    <li><img src="http://placehold.it/350x150"></li>
+    <li><img src="http://placehold.it/350x150"></li>
+    <li><img src="http://placehold.it/350x550"></li>
+    <li><img src="http://placehold.it/350x150"></li>
+    <li><img src="http://placehold.it/350x150"></li>
+  </ul>
 </div>
+
+<script>
+  var container = document.querySelector('.masonry-gallery');
+  var msnry = new Masonry( container, {
+    itemSelector: 'li'
+  });
+</script>
