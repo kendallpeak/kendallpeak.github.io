@@ -1,0 +1,52 @@
+.post {
+  border-bottom: 1px solid #ccc;
+  line-height: 1.5em;
+  padding: 3%;
+}
+
+.post div {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.user-icon {
+  overflow: hidden;
+  float: left;
+  margin-top: -25px;
+}
+
+.user-icon:before {
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  content: '';
+  position: absolute;
+  padding-bottom: 75px;
+  width: 75px;
+}
+
+
+.Kendall:before { background-image: url("/assets/images/kendall.jpg"); }
+.Chris:before { background-image: url("/assets/images/chris.jpg"); }
+
+.post h2 {
+  font-size: 2em;
+  margin-left: 90px;
+}
+
+.post-date {
+  font-size: .6em;
+  color: #777;
+}
+
+
+
+.post p {
+  padding: 0 2em;
+}
+
+.post img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
