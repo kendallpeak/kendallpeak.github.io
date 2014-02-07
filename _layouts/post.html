@@ -1,8 +1,9 @@
 ---
 layout: default
 ---
-<article class="post">
-  <h2>{{ page.title }}</h2>
-  <h3>{{ page.author }}</h3>
+<section class='post'>
+  <div>
+  <span class='user-icon {{ page.author }}'></span><h2>{{ page.title }}</h2>
   {{ content }}
-</article>
+</div>
+</section>
