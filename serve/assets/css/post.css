@@ -26,8 +26,8 @@
 }
 
 
-.Kendall:before { background-image: url("/images/kendall.jpg"); }
-.Chris:before { background-image: url("/images/chris.jpg"); }
+.Kendall:before { background-image: url("/assets/images/kendall.jpg"); }
+.Chris:before { background-image: url("/assets/images/chris.jpg"); }
 
 .post h2 {
   font-size: 2em;
@@ -35,14 +35,14 @@
 }
 
 .post-date {
-  font-size: .5em;
-  color: #555;
+  font-size: .6em;
+  color: #777;
 }
 
 
 
 .post p {
-  padding: 0 7%;
+  padding: 0 2em;
 }
 
 .post img {
