@@ -1,0 +1,25 @@
+.gallery {
+  padding: 10px;
+}
+
+.masonry-gallery {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.masonry-gallery li {
+  float: left;
+  padding: 5px;
+  width: 33.333%;
+}
+
+.masonry-gallery li img {
+  width: 100%;
+}
+
+
+@media screen and (max-width: 600px) {
+  .masonry-gallery li {
+    width: 50%;
+  }
+}

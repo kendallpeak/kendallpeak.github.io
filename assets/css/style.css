@@ -26,7 +26,7 @@ a, a:visited {
 }
 
 a:hover {
-  color: #E74828;
+  color: #e1102c;
 }
 
 p {
@@ -39,25 +39,5 @@ p {
   margin: 2% auto;
   overflow: hidden;
   width: 90%;
-  max-width: 1200px;
-}
-
-
-.gallery {
-  padding: 10px;
-}
-
-.masonry-gallery {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-.masonry-gallery li {
-  float: left;
-  padding: 5px;
-  width: 33.333%;
-}
-
-.masonry-gallery li img {
-  width: 100%;
+  max-width: 1000px;
 }
