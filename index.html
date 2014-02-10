@@ -6,3 +6,22 @@ title: "Home"
   {% include post.html %}
 {% endfor %}
 
+
+<script>
+  $('.post').onScreen({
+    container: window,
+    direction: 'vertical',
+    doIn: function() {
+      addClass: 'animated'
+    },
+    doOut: function() {
+      // Do something to the matched elements as they get off scren
+    },
+    tolerance: 0,
+    throttle: 50,
+    toggleClass: 'animated',
+    lazyAttr: null,
+    lazyPlaceholder: 'someImage.jpg',
+    debug: false
+  });
+</script>

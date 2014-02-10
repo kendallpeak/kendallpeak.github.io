@@ -27,7 +27,7 @@ header h1 img {
 }
 header a {
   color: #fff !important;
-  text-shadow: 0px 0px 15px rgba(0,0,0,1.0);
+  text-shadow: 0px 0px 15px rgba(0,0,0,0.5);
 }
 
 header a:hover {
