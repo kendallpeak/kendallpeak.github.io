@@ -23,13 +23,10 @@ a, a:visited {
   -moz-transition: color 0.15s ease-in;
   -o-transition: color 0.15s ease-in;
   transition: all 0.15s ease-in;
-  &:hover {
-    color: #e1102c;
-  }
 }
 
 a:hover {
-  //color: #e1102c;
+  color: #e1102c;
 }
 
 p {
