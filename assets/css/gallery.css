@@ -8,6 +8,7 @@
   padding: 0;
 }
 .masonry-gallery li {
+  min-height: 1px;
   float: left;
   padding: 5px;
   width: 33.333%;

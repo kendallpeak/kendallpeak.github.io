@@ -20,8 +20,10 @@ title: Photos
 </div>
 
 <script>
-  var container = document.querySelector('.masonry-gallery');
-  var msnry = new Masonry( container, {
-    itemSelector: 'li'
+  $(window).on('load', function () {
+    var container = document.querySelector('.masonry-gallery');
+    var msnry = new Masonry( container, {
+      itemSelector: 'li'
+    });
   });
 </script>
