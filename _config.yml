@@ -32,3 +32,5 @@ timezone: America/Chicago
 #
 production_url : http://www.thepeakfamily.com
 
+gems:
+- jekyll-compass
