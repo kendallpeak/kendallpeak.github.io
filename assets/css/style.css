@@ -35,9 +35,14 @@ p {
 }
 
 .wrap {
-  min-height: 500px;
+  border-bottom: 1px solid #ccc;
   margin: 2% auto;
   overflow: hidden;
+  padding-bottom: 1em;
   width: 90%;
   max-width: 1000px;
+}
+
+.baby-intro p {
+  color: #777;
 }
