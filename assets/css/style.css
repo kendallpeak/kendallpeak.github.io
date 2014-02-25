@@ -43,10 +43,20 @@ p {
   max-width: 1000px;
 }
 
+.countdown {
+  margin: 20px auto 0 auto;
+  width: 310px;
+}
 .baby-intro p {
   color: #777;
 }
 
+
+/*
+  ======================================================
+  MEDIA QUERIES
+  ======================================================
+*/
 
 @media screen and (max-width: 600px) {
   .baby-intro p {
@@ -88,8 +98,6 @@ p {
     font-size: 1em;
   }
 }
-
-
 
 /*
   ==============
