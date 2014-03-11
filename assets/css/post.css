@@ -49,10 +49,14 @@
 
 
 
-.post p {
+.post p,
+.post h3 {
   padding: 0 7%;
 }
 
+.post ul {
+  padding: 0 10%;
+}
 .post img {
   border: 1px solid #f2f2f2;
   background: #fff;
