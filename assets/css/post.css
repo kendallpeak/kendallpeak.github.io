@@ -30,7 +30,6 @@
 .Chris:before { background-image: url("/images/chris.jpg"); }
 
 .post h2 {
-  font-size: 2em;
   margin-left: 90px;
 }
 
@@ -87,16 +86,13 @@
     width: 50px;
   }
   .post h2 {
-    font-size: 1em;
     margin: 0 0 0 3em;
     padding: 20px;
   }
   .post-date {
-    font-size: .8em;
     display: block;
   }
   .post p {
-    font-size: .8em;
     line-height: 1.25em;
     margin: 0 0 1em 0;
     padding: 0 20px;

@@ -7,10 +7,13 @@
 
 body, html {
   background: #fcf9f0;
-  font-size: 22px;
   margin: 0;
 }
 
+
+html {
+  font-size: 100%;
+}
 
 h1, h2, h3, h4, h5 {
   font-family: "dederon-sans-web";
@@ -89,8 +92,14 @@ p {
   width: 100%;
 }
 
+@media screen and (min-width: 701px) {
+  html {
+    font-size: 150%;
+  }
+}
 
 @media screen and (max-width: 700px) {
+  html { font-size: 120%; }
   .contact-form {
     width: 100%;
   }
@@ -99,6 +108,9 @@ p {
   }
 }
 
+@media screen and (max-width: 600px) {
+  html { font-size: 100%; }
+}
 /*
   ==============
   Thank you page
