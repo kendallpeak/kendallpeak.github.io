@@ -74,6 +74,16 @@
 
 
 
+#disqus_thread {
+  border-top: 1px solid #ccc;
+  padding: 3%;
+}
+
+#disqus_thread iframe {
+  display: block;
+  margin: 0 auto;
+  max-width: 1000px;
+}
 
 @media screen and (max-width: 500px) {
   .post {
@@ -98,3 +108,4 @@
     padding: 0 20px;
   }
 }
+
