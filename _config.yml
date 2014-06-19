@@ -3,8 +3,7 @@
 permalink: /:categories/:year/:month/:day/:title
 
 exclude: [".rvmrc", ".rbenv-version", ".gitignore", "README.md", "Rakefile", "changelog.md", "Gemfile", "Gemfile.lock", "Procfile"]
-auto: true
-pygments: true
+highlighter: true
 
 exclude: [_deploy.sh]
 
