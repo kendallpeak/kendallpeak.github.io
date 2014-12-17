@@ -30,3 +30,7 @@ timezone: America/Chicago
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
 production_url : http://www.thepeakfamily.com
+
+
+sass:
+  sass_dir: /assets/css/_sass

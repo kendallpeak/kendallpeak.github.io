@@ -1,12 +1,14 @@
 ---
 layout: default
 ---
-<section class='post'>
-  <div>
-  <span class='user-icon {{ page.author }}'></span><h2>{{ page.title }}</h2>
+<div class='wrap'>
+  <section class='post standalone'>
+  <div class='post-info'>
+    <span class='user-icon {{ page.author }}'></span><h2>{{ page.title }}</h2>
+  </div>
   {{ content }}
+  </section>
 </div>
-</section>
 
 {% if page.comments %}
   <div id="disqus_thread"></div>

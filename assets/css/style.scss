@@ -1,3 +1,7 @@
+---
+---
+
+@import 'mixins';
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -6,18 +10,19 @@
 
 
 body, html {
-  background: #fcf9f0;
+  font-family: 'Muli', serif;
+  background: #fff;
   margin: 0;
   -webkit-font-smoothing: antialiased;
 }
 
 
 html {
-  font-size: 100%;
+  font-size: 18px;
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: "dederon-sans-web", "Proxima Nova";
+  margin: 0;
 }
 
 a, a:visited {
@@ -33,19 +38,20 @@ a:hover {
   color: #990000;
 }
 
+img {
+  max-width: 100%;
+}
+
 p {
   color: #333;
-  font-family: "minion-pro", "Proxima Nova", sans-serif;
   line-height: 1.5em;
 }
 
 .wrap {
-  border-bottom: 1px solid #ccc;
-  margin: 2% auto;
+  margin: 0 auto;
   overflow: hidden;
-  padding-bottom: 1em;
-  width: 90%;
-  max-width: 850px;
+  max-width: $site-width;
+  width: 95%;
 }
 
 .countdown {
@@ -94,11 +100,6 @@ p {
   width: 100%;
 }
 
-@media screen and (min-width: 701px) {
-  html {
-    font-size: 150%;
-  }
-}
 
 @media screen and (max-width: 700px) {
   html { font-size: 120%; }

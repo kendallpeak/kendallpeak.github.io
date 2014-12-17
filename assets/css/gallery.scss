@@ -1,0 +1,12 @@
+---
+---
+@import 'mixins';
+
+.gallery {
+  -webkit-column-gap: 10px;
+  -webkit-column-count: 2;
+  column-count: 2;
+  img {
+    margin-bottom: 5px;
+  }
+}
