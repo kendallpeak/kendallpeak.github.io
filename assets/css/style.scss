@@ -13,12 +13,13 @@ body, html {
   font-family: 'Muli', serif;
   background: #fff;
   margin: 0;
+  height: 100%;
   -webkit-font-smoothing: antialiased;
 }
 
-
 html {
-  font-size: 18px;
+  font-size: 100%;
+  height: 100%;
 }
 
 h1, h2, h3, h4, h5 {
@@ -32,10 +33,9 @@ a, a:visited {
   -moz-transition: color 0.15s ease-in;
   -o-transition: color 0.15s ease-in;
   transition: all 0.15s ease-in;
-}
-
-a:hover {
-  color: #990000;
+  &:hover {
+    color: #990000;
+  }
 }
 
 img {
@@ -43,95 +43,54 @@ img {
 }
 
 p {
-  color: #333;
+  color: #555;
   line-height: 1.5em;
 }
+
 iframe {
   margin: 2em 0;
 }
 
-.wrap {
-  margin: 0 auto;
-  overflow: hidden;
-  max-width: $site-width;
-  width: 95%;
-}
-
-.countdown {
-  margin: 20px auto 0 auto;
-  width: 310px;
-}
-.baby-intro p {
-  color: #777;
+ul {
+  list-style: none;
 }
 
 
-/*
-  ======================================================
-  MEDIA QUERIES
-  ======================================================
-*/
 
-@media screen and (max-width: 600px) {
-  .baby-intro p {
-    font-size: .8em;
+#homepage {
+  background: url('/images/covers/alison-smile.jpg');
+  background-size: cover;
+  background-position: 50% 50%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 58px;
+  bottom: 0;
+}
+
+.standfirst {
+  background: rgba(0,0,0,0.25);
+  font-size: 1.75em;
+  margin: 20px;
+  padding: 20px;
+  p {
+    color: white;
+    font-weight: bold;
     line-height: 1.25em;
+    margin: 0;
+  }
+  a {
+    color: white;
+    text-decoration: underline;
+    &:hover {
+      color: $red;
+    }
   }
 }
 
-
-/*
-  ===================
-  Contact Form Styles
-  ===================
-*/
-.contact-form {
-  margin-bottom: 5em;
-  width: 50%;
-}
-.contact-form h4 {
-  margin: 0;
-}
-.contact-form input[type=text] {
-  font-size: 1em;
-  height: 50px;
-  margin: 10px 0 20px 0;
-  padding: 1em 0.5em;
-  width: 100%;
-}
-
-textarea {
-  border: 1px solid #ccc;
-}
-.contact-form textarea {
-  font-size: .75em;
-  padding: 1em 0.5em;
-  width: 100%;
-}
-
-
-@media screen and (max-width: 700px) {
-  html { font-size: 120%; }
-  .contact-form {
-    width: 100%;
+@media screen and (min-width: 650px) {
+  .standfirst {
+    margin: 5% auto;
+    max-width: 500px;
   }
-  .contact-form h2 {
-    font-size: 1em;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  html { font-size: 100%; }
-}
-/*
-  ==============
-  Thank you page
-  ==============
-*/
-
-.thanks {
-  margin: 0 auto;
-  padding: 50px 0 200px 0;
-  text-align: center;
-  width: 60%;
 }

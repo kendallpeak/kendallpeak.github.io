@@ -1,14 +1,13 @@
 ---
 ---
-
 @import 'mixins';
+
 header {
-  overflow: hidden;
+  border-bottom: 1px solid $hairline;
   nav {
-    margin: 0 auto;
-    padding: 10px 0;
-    max-width: $site-width;
-    h1 {
+    overflow: hidden;
+    padding: 10px;
+    .logo {
       display: inline-block;
       float: left;
       font-size: 1em;
@@ -19,9 +18,6 @@ header {
       }
     }
     ul {
-      display: block;
-      overflow: hidden;
-      list-style: none;
       padding: 0;
       margin: 0;
       li a {
@@ -38,20 +34,9 @@ header {
   }
 }
 
-
-#hero {
-  background-image: url('/images/jonamac14.jpg');
-  background-size: cover;
-  background-position: center;
-  border-bottom: 1px solid rgba(0,0,0,0.25);
-  height: 300px;
-  margin-bottom: 60px;
-}
-
-
-@media screen and (max-width: 600px) {
-  #hero {
-    height: 200px;
-    margin-bottom: 20px;
+@media screen and (min-width: 650px) {
+  nav {
+    margin: 0 auto;
+    max-width: 900px;
   }
 }

@@ -1,0 +1,28 @@
+---
+layout: default
+title: News
+permalink: /news/
+---
+{% for post in site.posts %}
+  {% include post.html %}
+{% endfor %}
+
+
+<script>
+  $('.post').onScreen({
+    container: window,
+    direction: 'vertical',
+    doIn: function() {
+      addClass: 'animated'
+    },
+    doOut: function() {
+      toggleClass: 'animated'
+    },
+    tolerance: 0,
+    throttle: 50,
+    toggleClass: 'animated',
+    lazyAttr: null,
+    lazyPlaceholder: 'someImage.jpg',
+    debug: false
+  });
+</script>

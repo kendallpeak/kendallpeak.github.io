@@ -1,6 +1,12 @@
-<section class='post fadeInUp'>
-  <div class='post-info'>
-    <span class='user-icon {{ post.author }}'></span><h2><a href="{{ post.url }}">{{ post.title }} <span class='post-date'>{{ post.date | date: "%B %-d, %Y" }}</a></span></h2>
+<section class='post animated fadeIn'>
+  <div class='post__info'>
+    <span class='user-icon {{ post.author }}'></span>
+    <h2>
+      <a href="{{ post.url }}">
+        <span class='title'>{{ post.title }}</span>
+        <span class='post-date'>{{ post.date | date: "%B %-d, %Y" }}</span>
+      </a>
+    </h2>
   </div>
     {{ post.content }}
 </section>

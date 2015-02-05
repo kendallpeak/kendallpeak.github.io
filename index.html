@@ -2,28 +2,8 @@
 layout: default
 title: "Home"
 ---
-<div class='wrap'>
-{% for post in site.posts %}
-  {% include post.html %}
-{% endfor %}
+<div id="homepage" class='animated fadeIn'>
+  <div class='standfirst'>
+    <p>We are the Peak's and this is our website! Read our latest <a href="/news/">news</a> or take a look at our newest <a href="/photos">photos</a>.</p>
+  </div>
 </div>
-
-
-<script>
-  $('.post').onScreen({
-    container: window,
-    direction: 'vertical',
-    doIn: function() {
-      addClass: 'animated'
-    },
-    doOut: function() {
-      toggleClass: 'animated'
-    },
-    tolerance: 0,
-    throttle: 50,
-    toggleClass: 'animated',
-    lazyAttr: null,
-    lazyPlaceholder: 'someImage.jpg',
-    debug: false
-  });
-</script>
