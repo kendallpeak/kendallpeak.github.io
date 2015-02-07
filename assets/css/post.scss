@@ -7,6 +7,10 @@
   border-top: 1px solid $hairline;
   margin: 0 auto 40px auto;
   padding: 15px 10px 10px 10px;
+  iframe {
+    min-height: 300px;
+    width: 100%;
+  }
 }
 .post:first-of-type { border: none; }
 .post__info {
