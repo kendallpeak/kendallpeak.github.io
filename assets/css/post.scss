@@ -59,6 +59,9 @@
     padding: 30px 20px 20px 20px;
     max-width: 900px;
   }
+  .post__info h2 {
+    margin-top: 0;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -67,6 +70,9 @@
     margin: 2em auto 2em auto;
     padding-top: 60px;
     max-width: 1200px;
+  }
+  .post__info h2 {
+    margin-top: -8px;
   }
 }
 
