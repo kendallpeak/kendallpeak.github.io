@@ -42,6 +42,11 @@ a, a:visited {
 img {
   max-width: 100%;
 }
+img.vertical {
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+}
 
 p {
   color: #555;
