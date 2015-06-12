@@ -11,16 +11,3 @@
   }
 }
 
-@media screen and (min-width: 650px) {
-  .gallery {
-    -webkit-column-count: 3;
-    -moz-column-count: 3;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .gallery {
-    -webkit-column-count: 4;
-    -moz-column-count: 4;
-  }
-}
