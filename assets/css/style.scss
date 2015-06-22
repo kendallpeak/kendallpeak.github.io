@@ -1,7 +1,12 @@
 ---
 ---
 
-@import 'mixins';
+$site-width: 1200px;
+
+$red: #990000;
+$hairline: #ccc;
+$body-font: "jubilat", "Proxima Nova", sans-serif;
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -11,7 +16,7 @@
 
 body, html {
   //font-family: 'Muli', serif;
-  font-family: "jubilat";
+  font-family: $body-font;
   background: #fff;
   margin: 0;
   height: 100%;
@@ -117,3 +122,10 @@ ul {
     max-width: 900px;
   }
 }
+
+
+@import
+  "post",
+  "gallery",
+  "header-nav"
+;

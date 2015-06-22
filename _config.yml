@@ -33,4 +33,4 @@ production_url : http://www.thepeakfamily.com
 
 
 sass:
-  sass_dir: /assets/css/_sass
+  sass_dir: /_sass

@@ -1,13 +1,20 @@
----
----
-@import 'mixins';
-
 .gallery {
   -webkit-column-gap: 0px;
   -webkit-column-count: 2;
   column-count: 2;
   img {
     margin-bottom: -6px;
+  }
+}
+
+
+.gallery__half {
+  img {
+    float: left;
+    width: 50%;
+  }
+  img.full {
+    width: 100%;
   }
 }
 
